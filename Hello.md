@@ -1,5 +1,5 @@
 Hello World
 ===========
 
-Learning me some Git ;
+Learning me some Git ;-)
 
