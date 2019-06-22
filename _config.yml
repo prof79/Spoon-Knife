@@ -1,2 +1,25 @@
 # See: https://stackoverflow.com/questions/16316311/github-pages-and-relative-paths
 baseurl: /Spoon-Knife
+
+collections:
+    authors:
+        output: true
+
+defaults:
+
+    - scope:
+        path: ""
+        type: "authors"
+      values:
+        layout: "author"
+
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: "post"
+
+    - scope:
+        path: ""
+      values:
+        layout: "default"
