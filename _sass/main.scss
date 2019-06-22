@@ -2,6 +2,13 @@
     color: green;
 }
 
-a, h1, h2, h3, p {
-    font-family: Arial, Helvetica, sans-serif
+// a, h1, h2, h3, p {
+//     font-family: Arial, Helvetica, sans-serif
+// }
+
+// #b5e853
+// 181, 252, 83,
+.active {
+    background:
+        -webkit-linear-gradient(top, rgba(181, 252, 83, 0.2), rgba(181, 252, 83, 0.4) 50%, rgba(181, 252, 83, 0.35) 50%, rgba(0, 0, 0, 0.1));
 }

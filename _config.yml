@@ -22,9 +22,11 @@ defaults:
     - scope:
         path: ""
       values:
-        layout: "default"
+        layout: "my-default"
 
 plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jekyll-seo-tag
+
+theme: jekyll-theme-hacker
