@@ -1,6 +1,8 @@
 # See: https://stackoverflow.com/questions/16316311/github-pages-and-relative-paths
 baseurl: /Spoon-Knife
 
+description: Learning Jekyll and GitHub Pages.
+
 collections:
     authors:
         output: true
