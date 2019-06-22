@@ -15,7 +15,7 @@ layout: my-default
     {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
     {% for post in filtered_posts %}
 
-        <li><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 
     {% endfor %}
 
