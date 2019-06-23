@@ -26,9 +26,4 @@ defaults:
       values:
         layout: "my-default"
 
-plugins:
-    - jekyll-sitemap
-    - jekyll-feed
-    - jekyll-seo-tag
-
 theme: jekyll-theme-hacker
